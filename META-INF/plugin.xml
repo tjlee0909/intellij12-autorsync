@@ -1,0 +1,47 @@
+<idea-plugin version="2">
+  <id>com.box.autorsync</id>
+  <name>Box Autorsync for IntelliJ 12!</name>
+  <version>1.0</version>
+  <vendor email="tj@box.com" url="http://www.box.com">Box Inc.</vendor>
+
+  <description><![CDATA[
+      Performs rsync automatically when bringing focus back on IntelliJ<br>
+      Actual implementation is to invoke the script in path (hardcoded) /box/www/runsync.command.
+      This means that the rsync script MUST be named as such and placed in that directory on the
+      developer's macbook.
+      ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <small>most HTML tags may be used</small>
+      ]]>
+  </change-notes>
+
+  <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="107.105"/>
+
+  <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <application-components>
+      <component>
+          <implementation-class>boxautorsync.RsyncAppComponent</implementation-class>
+      </component>
+  </application-components>
+
+  <project-components>
+  </project-components>
+
+  <actions>
+      <action id="ToggleBoxAutoRsyncPlugin" class="boxautorsync.TogglePlugin" text="Toggle Autorsync"
+              description="Turn rsync on/off">
+          <add-to-group group-id="FileMenu" anchor="after" relative-to-action="Synchronize"/>
+      </action>
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+</idea-plugin>
