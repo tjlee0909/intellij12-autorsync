@@ -26,14 +26,25 @@ public class BackgroundTask extends Task.Backgroundable
     {
         progressIndicator.setFraction(0.1);
         this.showMessage("Launching Rsync...", MessageType.INFO, this._project);
-        progressIndicator.setFraction(0.2);
 
         try
         {
             progressIndicator.setFraction(0.3);
-            Runtime.getRuntime().exec(RUNSYNC_COMMAND_PATH).waitFor();
+            TimeoutThread thr = new TimeoutThread(RUNSYNC_COMMAND_PATH, 20000);
+
+            if (thr.Execute())
+            {
+                this.showMessage("Rsync succeeded.", MessageType.INFO, this._project);
+            }
+            else
+            {
+                this.showMessage("Rsync failed.", MessageType.ERROR, this._project);
+            }
         }
-        catch (Exception e) { }
+        catch (Exception e)
+        {
+            this.showMessage("Rsync failed.", MessageType.ERROR, this._project);
+        }
 
         progressIndicator.setFraction(1.0);
     }
@@ -41,7 +52,6 @@ public class BackgroundTask extends Task.Backgroundable
     public void onSuccess()
     {
         VirtualFileManager.getInstance().syncRefresh();
-        this.showMessage("Rsync succeeded.", MessageType.INFO, this._project);
     }
 
     private void showMessage(String message, MessageType messageType, Project project)

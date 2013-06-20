@@ -9,15 +9,16 @@
     <file path="/FrameStateListener.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371242079897" ignored="false" />
     <file path="/RsyncProjectManagerListener.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371242245262" ignored="false" />
     <file path="/RsyncAppComponent.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371243656191" ignored="false" />
-    <file path="/RsyncFrameStateListener.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371579831969" ignored="false" />
-    <file path="/Rsync.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371607726196" ignored="false" />
+    <file path="/RsyncFrameStateListener.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371721085842" ignored="false" />
+    <file path="/Rsync.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371716361951" ignored="false" />
     <file path="/Settings.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371578413372" ignored="false" />
     <file path="/TogglePlugin.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371578565311" ignored="false" />
     <file path="/RsyncThread.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371605341528" ignored="false" />
     <file path="/Notifier.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371604844898" ignored="false" />
     <file path="/box/www/current_local/Envelope.php" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371599922458" ignored="false" />
     <file path="/box/www/current_local/box_edit.html" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371599922458" ignored="false" />
-    <file path="/BackgroundTask.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371673416374" ignored="false" />
+    <file path="/BackgroundTask.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371722137952" ignored="false" />
+    <file path="/TimeoutThread.java" changelist="b0b626ac-4463-4cf1-a8b2-6242999720f6" time="1371722121603" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -33,6 +39,7 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -69,7 +76,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -78,54 +84,44 @@
     <favorites_list name="IntelliJAutoRsync12" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="BackgroundTask.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/boxautorsync/BackgroundTask.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="70" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.3439889">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="RsyncFrameStateListener.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/boxautorsync/RsyncFrameStateListener.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="30" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="47" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Rsync.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/boxautorsync/Rsync.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="5" selection-start="426" selection-end="426" vertical-scroll-proportion="0.1446281">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="RsyncFrameStateListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boxautorsync/RsyncFrameStateListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="9" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackgroundTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boxautorsync/BackgroundTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="5" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeoutThread.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/boxautorsync/TimeoutThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="5" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.67951316">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rsync.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boxautorsync/Rsync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="18" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -139,22 +135,24 @@
         <option value="$PROJECT_DIR$/src/boxautorsync/FrameStateListener.java" />
         <option value="$PROJECT_DIR$/src/boxautorsync/RsyncProjectManagerListener.java" />
         <option value="$PROJECT_DIR$/src/boxautorsync/RsyncAppComponent.java" />
-        <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/boxautorsync/Settings.java" />
         <option value="$PROJECT_DIR$/src/boxautorsync/TogglePlugin.java" />
         <option value="$PROJECT_DIR$/src/boxautorsync/RsyncThread.java" />
         <option value="$PROJECT_DIR$/src/boxautorsync/Notifier.java" />
-        <option value="$PROJECT_DIR$/src/boxautorsync/RsyncFrameStateListener.java" />
         <option value="$PROJECT_DIR$/src/boxautorsync/Rsync.java" />
+        <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/boxautorsync/RsyncFrameStateListener.java" />
         <option value="$PROJECT_DIR$/src/boxautorsync/BackgroundTask.java" />
+        <option value="$PROJECT_DIR$/src/boxautorsync/TimeoutThread.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="-610" />
+    <option name="y" value="-1600" />
     <option name="width" value="1280" />
-    <option name="height" value="1574" />
+    <option name="height" value="1600" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -182,6 +180,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -197,7 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliJAutoRsync12" />
+              <option name="myItemId" value="intellij12-autorsync" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,7 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IntelliJAutoRsync12" />
+              <option name="myItemId" value="intellij12-autorsync" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -221,40 +220,32 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="options.lastSelected" value="reference.settings.ide.settings.notifications" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="AutoRsyncEnabled" value="rsync_disabled" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="PublishConfig">
+  <component name="PublishConfig" serverName="devtools" serverId="c2a0694d-e301-4be3-a4d9-4e0ca8df512c">
     <servers>
-      <server id="110b14e9-f6a5-4ad1-a6ff-546acb0cf900">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="82664272-ae59-4afe-9d4a-07c5447b4e58">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="c2a0694d-e301-4be3-a4d9-4e0ca8df512c">
+        <serverdata />
       </server>
     </servers>
   </component>
@@ -263,6 +254,27 @@
       <module name="IntelliJAutoRsync12" />
       <option name="VM_PARAMETERS" value="-Xms128m&#10;-Xmx750m&#10;-XX:MaxPermSize=350m&#10;-XX:ReservedCodeCacheSize=96m&#10;-XX:+UseCodeCacheFlushing&#10;-XX:+UseCompressedOops" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="RunPluginTest" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -285,27 +297,39 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0b626ac-4463-4cf1-a8b2-6242999720f6" name="Default" comment="" />
+      <created>1371713359042</created>
+      <updated>1371713359042</updated>
+    </task>
+    <servers />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="1574" extended-state="6" />
+    <frame x="-610" y="-1600" width="1280" height="1600" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.17380808" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32580644" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.70405406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.39956957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="441" y="69" width="557" height="780" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23338735" sideWeight="0.6705128" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.70405406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -342,7 +366,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -370,115 +394,190 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Runtime.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="782" selection-end="782" vertical-scroll-proportion="0.33259425" />
+        <state line="29" column="41" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Process.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="420" selection-end="420" vertical-scroll-proportion="0.23281597" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/ui/popup/BalloonBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="49" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.29186934" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/boxautorsync/TogglePlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Thread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="59" selection-start="5859" selection-end="5859" vertical-scroll-proportion="0.60215056">
-          <folding />
-        </state>
+        <state line="15" column="24" selection-start="420" selection-end="420" vertical-scroll-proportion="0.25960264" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/progress/Task.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.24970274">
-          <folding />
-        </state>
+        <state line="100" column="46" selection-start="5717" selection-end="5740" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Object.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/vfs/VirtualFileSystem.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="29" selection-start="644" selection-end="644" vertical-scroll-proportion="0.37542662">
-          <folding />
-        </state>
+        <state line="6" column="22" selection-start="176" selection-end="176" vertical-scroll-proportion="0.094339624" />
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/project/Project.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/vfs/VirtualFileManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="37" selection-start="799" selection-end="799" vertical-scroll-proportion="0.38106236">
-          <folding />
-        </state>
+        <state line="14" column="59" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/fileEditor/FileDocumentManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.35945946" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="47" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/boxautorsync/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="408" selection-end="408" vertical-scroll-proportion="0.1856018">
+        <state line="28" column="26" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.5283019">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/boxautorsync/RsyncAppComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="236" selection-end="236" vertical-scroll-proportion="0.08314856">
+        <state line="29" column="42" selection-start="821" selection-end="821" vertical-scroll-proportion="0.509434">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/vfs/VirtualFileManager.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/actionSystem/AnActionEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="696" selection-end="696" vertical-scroll-proportion="0.25309336">
-          <folding />
-        </state>
+        <state line="22" column="11" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.3962264" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/actionSystem/AnAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="25" selection-start="3265" selection-end="3265" vertical-scroll-proportion="0.41509435" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="35" selection-start="5386" selection-end="5386" vertical-scroll-proportion="0.33245033" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Home/lib/jconsole.jar!/sun/tools/jconsole/Worker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="286" selection-end="286" vertical-scroll-proportion="0.16688742" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/boxautorsync/RsyncFrameStateListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="30" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
+        <state line="46" column="9" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/progress/ProgressIndicator.class">
+    <entry file="file://$PROJECT_DIR$/src/boxautorsync/Rsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="9" selection-start="488" selection-end="488" vertical-scroll-proportion="0.26859504">
+        <state line="9" column="18" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/boxautorsync/BackgroundTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="70" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.3439889">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/boxautorsync/Rsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="426" selection-end="426" vertical-scroll-proportion="0.1446281">
+        <state line="19" column="5" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/boxautorsync/TimeoutThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="5" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.67951316">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>IntelliJAutoRsync12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Python 2.6.1 (/System/Library/Frameworks/Python.framework/Versions/2.6/bin/python2.6)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
